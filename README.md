@@ -6,6 +6,9 @@ This is a simple react-redux add for demo.
 
 # Live
  - Project is live on : https://react-star-wars-demo.herokuapp.com
+ - Example:
+ - username: Luke Skywalker
+ - password: 19BBY
  
 ## Run Application
 You can download this repo or clone using below command. (folder-name will be project folder in which you want to start your project).
@@ -23,12 +26,6 @@ Once you clone or download project go into you folder
 > yarn start (to run project in local)
 ```
 
-### Login
-```
-Example:
-username: Luke Skywalker
-password: 19BBY
-```
 ### Contact 
 * Follow [@me](https://twitter.com/binitghetiya) on Twitter
 * Email <binitlearning@gmail.com>
