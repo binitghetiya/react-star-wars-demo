@@ -3,6 +3,9 @@
 This is a simple react-redux add for demo.
  - Login, search and listing with sorting
  - Used APIs from https://swapi.co
+
+# Live
+ - Project is live on : https://react-star-wars-demo.herokuapp.com
  
 ## Run Application
 You can download this repo or clone using below command. (folder-name will be project folder in which you want to start your project).
