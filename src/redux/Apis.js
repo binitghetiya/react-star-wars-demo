@@ -3,17 +3,25 @@ import axios from "axios";
 
 export const verifyLoginRequest = async username => {
   const url = `${BASE_API_URL}people/?search=${username}`;
-  const res = await axios.get(url);
-  if (res.status === 200 && res.data.count === 1) {
-    return res.data.results[0];
+  try {
+    const res = await axios.get(url);
+    if (res.status === 200 && res.data.count === 1) {
+      return res.data.results[0];
+    }
+    return false;
+  } catch (error) {
+    return false;
   }
-  return false;
 };
 export const getPlanetsRequest = async name => {
   const url = `${BASE_API_URL}planets/?search=${name}`;
-  const res = await axios.get(url);
-  if (res.status === 200) {
-    return res.data.results;
+  try {
+    const res = await axios.get(url);
+    if (res.status === 200) {
+      return res.data.results;
+    }
+    return false;
+  } catch (error) {
+    return false;
   }
-  return false;
 };
